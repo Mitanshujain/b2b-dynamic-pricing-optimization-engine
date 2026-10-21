@@ -1,0 +1,9 @@
+Status: RECOMMENDED
+Model: Support Vector Regression
+Recommended price: INR 146.00
+Predicted demand: 78.91 units
+Stock-limited units: 78.91
+Estimated gross contribution: INR 5208.07
+Current-price gross contribution estimate: INR 3200.00
+- Synthetic-data demonstration; quantities and gross contribution are estimates, not realised sales or profit.
+- Optimal only within the tested price grid; fixed costs, taxes, bargaining and competitor reactions are excluded.

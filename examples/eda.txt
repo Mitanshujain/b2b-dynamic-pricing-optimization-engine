@@ -1,0 +1,14 @@
+SYNTHETIC DATA - one SKU, one daily observation
+Product: BOLT-M8-100
+Training / validation / test rows: 432 / 144 / 144
+Training dates: 2024-01-01 to 2025-03-07
+Validation dates: 2025-03-08 to 2025-07-29
+Test dates: 2025-07-30 to 2025-12-20
+Training price range: 90.18 to 159.98 INR
+Mean training quantity: 95.34
+Price/quantity correlation: -0.8784
+Correlation alone is not causal price elasticity. This simulator randomises prices by design.
+Mean baseline: validation RMSE 32.306; test MAE 26.683; test RMSE 32.677
+Random Forest: validation RMSE 5.240; test MAE 4.376; test RMSE 5.504
+Support Vector Regression: validation RMSE 3.665; test MAE 3.058; test RMSE 3.861
+Selected using validation RMSE: Support Vector Regression
